@@ -13,7 +13,7 @@ export default function Experience() {
         Experiencias
       </h3>
 
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
+      <div className="w-full flex space-x-5 max-[1300px]:overflow-x-scroll p-10 snap-x snap-mandatory">
         <ExperienceCard
           companyImg="/images/mercado-radar.png"
           company="Mercado Radar"
