@@ -30,7 +30,7 @@ export default function ExperienceCard({
         src={companyImg}
       />
       <div className="px-0 md:px10 flex flex-col items-center space-y-4">
-        <h4 className="text-4xl font-light text-center max-[480px]:text-2xl">
+        <h4 className="text-4xl font-light text-center max-[480px]:text-lg">
           {title}
         </h4>
         <p className="font-semibold text-2xl max-[480px]:text-xl">{company}</p>
