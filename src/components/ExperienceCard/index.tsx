@@ -26,14 +26,16 @@ export default function ExperienceCard({
         transition={{ duration: 1.2 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
-        className="w-24 h-24 mt-8 rounded-full md:rounded-full xl:w-[100px] xl:h-[100px] object-cover object-center"
+        className="w-24 h-24 mt-8 rounded-full md:rounded-full xl:w-[50px] xl:h-[50px] object-cover object-center xl:mt-0"
         src={companyImg}
       />
       <div className="px-0 md:px10 flex flex-col items-center space-y-4">
-        <h4 className="text-4xl font-light text-center max-[480px]:text-lg">
+        <h4 className="text-4xl font-light text-center max-[480px]:text-lg xl:text-xl">
           {title}
         </h4>
-        <p className="font-semibold text-2xl max-[480px]:text-xl">{company}</p>
+        <p className="font-semibold text-2xl max-[480px]:text-xl xl:text-xl">
+          {company}
+        </p>
         <div className="flex space-x-2 my-2">
           {technologies
             ? technologies.map((technology, index) => (
@@ -41,16 +43,16 @@ export default function ExperienceCard({
                   key={index}
                   src={technology}
                   alt="Tecnolgia"
-                  className="w-10 h-10 rounded-full object-cover object-center"
+                  className="w-10 h-10 rounded-full object-cover object-center xl:w-7 xl:h-7"
                 />
               ))
             : null}
         </div>
-        <p>
+        <p className="xl:text-sm">
           Inicio em {initialDate} até {finalDate}
         </p>
 
-        <ul className="list-disc text-left space-y-4 ml-5 text-lg max-[480px]:text-sm max-[480px]:list-none">
+        <ul className="list-disc text-left space-y-4 ml-5 text-lg max-[480px]:text-sm max-[480px]:list-none xl:text-sm">
           {responsibilities
             ? responsibilities.map((responsibility, index) => (
                 <li key={index}>{responsibility}</li>
