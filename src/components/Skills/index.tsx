@@ -22,32 +22,84 @@ export default function Skills() {
             <img
               src="/images/responsive-design.png"
               alt="CSS"
-              className="w-20"
+              className="w-20 max-[400px]: w-16"
             />
-            <img src="/images/figma.png" alt="FIGMA" className="w-20" />
-            <img src="/images/html.png" alt="HTML" className="w-20" />
-            <img src="/images/css.png" alt="CSS" className="w-20" />
-            <img src="/images/sass.png" alt="SASS" className="w-20" />
-            <img src="/images/bootstrap.png" alt="BOOTSTRAP" className="w-20" />
+            <img
+              src="/images/figma.png"
+              alt="FIGMA"
+              className="w-20 max-[400px]: w-16"
+            />
+            <img
+              src="/images/html.png"
+              alt="HTML"
+              className="w-20 max-[400px]: w-16"
+            />
+            <img
+              src="/images/css.png"
+              alt="CSS"
+              className="w-20 max-[400px]: w-16"
+            />
+            <img
+              src="/images/sass.png"
+              alt="SASS"
+              className="w-20 max-[400px]: w-16"
+            />
+            <img
+              src="/images/bootstrap.png"
+              alt="BOOTSTRAP"
+              className="w-20 max-[400px]: w-16"
+            />
             <img
               src="/images/tailwind-css.png"
               alt="TAILWINDCSS"
-              className="w-20"
+              className="w-20 max-[400px]: w-16"
             />
-            <img src="/images/js.png" alt="JAVASCRIPT" className="w-20" />
+            <img
+              src="/images/js.png"
+              alt="JAVASCRIPT"
+              className="w-20 max-[400px]: w-16"
+            />
             <img
               src="/images/typescript.png"
               alt="TYPESCRIPT"
-              className="w-20"
+              className="w-20 max-[400px]: w-16"
             />
-            <img src="/images/react.png" alt="React" className="w-20" />
-            <img src="/images/nextjs.png" alt="NEXTJS" className="w-20" />
-            <img src="/images/vue.png" alt="VUE" className="w-20" />
-            <img src="/images/git.png" alt="GIT" className="w-20" />
-            <img src="/images/github.png" alt="GITHUB" className="w-20" />
+            <img
+              src="/images/react.png"
+              alt="React"
+              className="w-20 max-[400px]: w-16"
+            />
+            <img
+              src="/images/nextjs.png"
+              alt="NEXTJS"
+              className="w-20 max-[400px]: w-16"
+            />
+            <img
+              src="/images/vue.png"
+              alt="VUE"
+              className="w-20 max-[400px]: w-16"
+            />
+            <img
+              src="/images/git.png"
+              alt="GIT"
+              className="w-20 max-[400px]: w-16"
+            />
+            <img
+              src="/images/github.png"
+              alt="GITHUB"
+              className="w-20 max-[400px]: w-16"
+            />
 
-            <img src="/images/java.png" alt="JAVA" className="w-20" />
-            <img src="/images/mysql.png" alt="MYSQL" className="w-20" />
+            <img
+              src="/images/java.png"
+              alt="JAVA"
+              className="w-20 max-[400px]: w-16"
+            />
+            <img
+              src="/images/mysql.png"
+              alt="MYSQL"
+              className="w-20 max-[400px]: w-16"
+            />
           </div>
         </div>
       </div>

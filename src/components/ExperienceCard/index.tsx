@@ -30,8 +30,10 @@ export default function ExperienceCard({
         src={companyImg}
       />
       <div className="px-0 md:px10 flex flex-col items-center space-y-4">
-        <h4 className="text-4xl font-light text-center">{title}</h4>
-        <p className="font-semibold text-2xl">{company}</p>
+        <h4 className="text-4xl font-light text-center max-[480px]:text-2xl">
+          {title}
+        </h4>
+        <p className="font-semibold text-2xl max-[480px]:text-xl">{company}</p>
         <div className="flex space-x-2 my-2">
           {technologies
             ? technologies.map((technology, index) => (
@@ -48,7 +50,7 @@ export default function ExperienceCard({
           Inicio em {initialDate} até {finalDate}
         </p>
 
-        <ul className="list-disc space-y-4 ml-5 text-lg">
+        <ul className="list-disc text-left space-y-4 ml-5 text-lg max-[480px]:text-sm max-[480px]:list-none">
           {responsibilities
             ? responsibilities.map((responsibility, index) => (
                 <li key={index}>{responsibility}</li>
