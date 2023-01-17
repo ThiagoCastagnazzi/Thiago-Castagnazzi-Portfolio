@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import ProjectsData from "./ProjectsData";
-// import ProjectsData from "./ProjectsData";
 
 export default function Projects() {
   return (
