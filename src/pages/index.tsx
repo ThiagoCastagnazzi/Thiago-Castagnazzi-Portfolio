@@ -10,7 +10,7 @@ import Skills from "../components/Skills";
 
 export default function Home() {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-whiten">
+    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-white">
       <Head>
         <title>Thiago Portfolio</title>
       </Head>
@@ -39,7 +39,6 @@ export default function Home() {
         <Projects />
       </section>
 
-      {/* Contact */}
       <section id="contact" className="snap-center">
         <ContactMe />
       </section>

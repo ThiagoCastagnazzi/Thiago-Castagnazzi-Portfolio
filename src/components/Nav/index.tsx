@@ -24,6 +24,11 @@ export default function Nav() {
           Projetos
         </Link>
       </motion.button>
+      <motion.button whileHover={{ scale: 1.1 }}>
+        <Link href="#contact" className="heroButton">
+          Contato
+        </Link>
+      </motion.button>
     </div>
   );
 }
