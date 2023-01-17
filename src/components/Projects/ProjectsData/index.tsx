@@ -23,7 +23,9 @@ export default function ProjectsData({
         text-center
         w-[300px]
         h-[300px]
-        bg-black
+        bg-[rgb(36,36,36)]
+        border-2
+        border-gray-500
         rounded-xl
         shadow-xl
         m-10
@@ -35,6 +37,7 @@ export default function ProjectsData({
         hover:-translate-y-1
         hover:scale-110
         gap-3
+        p-2
       "
       >
         <img
