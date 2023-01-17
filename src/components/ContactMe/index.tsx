@@ -22,14 +22,20 @@ export default function ContactMe() {
         <div>
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="h-5 w-5 text-gray-300 animate-pulse" />
-            <p>+55 67 99830-9537</p>
+            <p>
+              <a href="tel:+5567998309537">+55 67 99830-9537</a>
+            </p>
           </div>
         </div>
 
         <div>
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="h-5 w-5 text-gray-300 animate-pulse" />
-            <p>thiagocastagnazzi@gmail.com</p>
+            <p>
+              <a href="mailto:thiagocastagnazzi@gmail.com">
+                thiagocastagnazzi@gmail.com
+              </a>
+            </p>
           </div>
         </div>
 
