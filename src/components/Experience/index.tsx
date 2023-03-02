@@ -18,8 +18,8 @@ export default function Experience() {
           companyImg="/images/mercado-radar.png"
           company="Mercado Radar"
           title="Desenvolvedor Front-end"
-          initialDate="03/2022"
-          finalDate="o Momento"
+          initialDate="08/2022"
+          finalDate="09/2022"
           technologies={[
             "/images/react.png",
             "/images/vue.png",
@@ -36,7 +36,7 @@ export default function Experience() {
           company="Mega Informática"
           title="Analista de Suporte Técnico Computacional"
           initialDate="08/2020"
-          finalDate="03/2022"
+          finalDate="08/2022"
           technologies={[
             "/images/team-viewer.png",
             "/images/technical-support.png",
