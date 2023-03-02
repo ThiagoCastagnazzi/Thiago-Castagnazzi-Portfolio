@@ -39,10 +39,10 @@ export default function Projects() {
           image="https://cdn.discordapp.com/attachments/389224091686666240/1064978244593528923/Portfolio_Home.PNG"
         />
         <ProjectsData
-          link="https://dtmoney-khaki.vercel.app/"
-          title="dt money"
-          description="Projeto de controle financeiro feito junto ao curso da Trilha de React da Rocketseat"
-          image="https://cdn.discordapp.com/attachments/389224091686666240/1064986946503450634/image.png"
+          link="https://mks-frontend-challenge-phi.vercel.app/"
+          title="MKS Challenge"
+          description="Desafio de Front-end da MKS"
+          image="https://cdn.discordapp.com/attachments/389224091686666240/1080886015117508668/image.png"
         />
         <ProjectsData
           link="https://ig-news-ten.vercel.app/"
