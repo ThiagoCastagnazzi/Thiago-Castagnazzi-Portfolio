@@ -23,7 +23,7 @@ export default function Projects() {
         snap-x
         snap-mandatory
         z-20
-        scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-white
+        scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-gray-500/40
       "
       >
         <ProjectsData
