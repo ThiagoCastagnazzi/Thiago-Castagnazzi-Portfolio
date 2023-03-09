@@ -45,7 +45,7 @@ export default function Projects() {
           image="https://cdn.discordapp.com/attachments/389224091686666240/1080886015117508668/image.png"
         />
         <ProjectsData
-          link="https://ig-news-ten.vercel.app/"
+          link="/"
           title="ig news"
           description="Projeto de blog para assinatura de conteúdo feito junto ao curso da Trilha de React da Rocketseat"
           image="https://cdn.discordapp.com/attachments/389224091686666240/1064978494100086864/1666009862286.png"
